@@ -37,3 +37,13 @@ For GPU setup, see [CUDA documentation](LLM-From-Scratch/docs/CUDA_BACKEND.md) a
 ## Status
 
 The numerical engine, tokenizer, training and generation code are implemented and covered by tests. Memory and Specialist are documentation-only placeholders. CUDA requires a compatible NVIDIA setup; validation results and historical model records do not imply that trained weights or datasets are bundled. See the [project README](LLM-From-Scratch/README.md), [model card](LLM-From-Scratch/MODEL_CARD.md), and [dataset card](LLM-From-Scratch/DATASET_CARD.md) for details.
+
+<!-- documentation-publication-policy:start -->
+## Documentation contributions
+
+Agent instruction entrypoints (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) are local-only and ignored by Git.
+
+Keep temporary plans and agent notes in ignored `.private/`. Update existing guides for lasting user or contributor needs; ordinary tasks do not need a Markdown report.
+
+After cloning, install local checks with `python3 scripts/check_documentation.py --install-hooks`. Run `python3 scripts/check_documentation.py` before publication. Public documentation and publication-policy changes require owner review of exact contents. Prepare a proposal with `python3 scripts/check_documentation.py --propose .private/documentation-review.json`; the owner reviews it in a separate terminal with `--review` and the same path. PR checks print the owner approval comment to post before rerunning validation. Hooks and CI cannot undo an initial public disclosure.
+<!-- documentation-publication-policy:end -->

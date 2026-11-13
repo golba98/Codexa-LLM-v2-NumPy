@@ -21,11 +21,11 @@ def git(*args, cwd=ROOT, data=None):
 def permitted(path):
     parts = path.parts
     name = path.name.lower()
-    if name in {'agents.md', 'claude.md', 'guidelines.md', 'artifacts.local.json'}:
+    if name in {'agents.md', 'claude.md', 'gemini.md', 'guidelines.md', 'artifacts.local.json'}:
         return False
     if name.startswith('.env') or name.endswith(('.safetensors', '.pt', '.pth', '.ckpt')):
         return False
-    if any(part in {'.git', '.venv', 'venv', '__pycache__', '.pytest_cache',
+    if any(part in {'.git', '.private', '.venv', 'venv', '__pycache__', '.pytest_cache',
                     'outputs', 'checkpoints', 'artifacts', 'logs', 'validation',
                     'preservation', 'build', 'dist'} for part in parts):
         return False
