@@ -37,4 +37,4 @@ codexa-numpy-chat-codexa --help
 
 The local validated environment currently inherits existing system NumPy/CuPy libraries and installs this package locally. It is not a hermetic environment; the exact baseline pins and CUDA setup documentation describe reproduction. No mathematical engine or CUDA backend was replaced. Package imports and installed CLI commands work outside the checkout; pass NUMPY_LLM_WORKSPACE_ROOT when selecting another checkout.
 
-The production tied-embedding target has 253,284,096 parameters and a 16K tokenizer. Existing 240.9M benchmark configurations remain historical records. See [docs/MIGRATION.md](docs/MIGRATION.md), [docs/VALIDATION.md](docs/VALIDATION.md), MODEL_CARD.md and DATASET_CARD.md for evidence and limitations.
+The production tied-embedding target has 253,284,096 parameters and a 16K tokenizer. Existing 240.9M benchmark configurations remain historical records. See [docs/MIGRATION.md](docs/MIGRATION.md), [docs/EVALUATION.md](docs/EVALUATION.md), MODEL_CARD.md and DATASET_CARD.md for evidence and limitations.

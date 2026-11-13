@@ -1,0 +1,67 @@
+{
+  "owner": "golba98",
+  "private_git_blobs": [
+    "6bfa7d01cf77c2a491b91879b1975656ab747aeb"
+  ],
+  "private_hashes": [
+    "c5eaf9547523142d8a790110a2d730081aafe2c87ca7595499280a0f563f8f08"
+  ],
+  "private_paths": [
+    ".agents/scratch/",
+    ".agents/teamwork/",
+    ".private/",
+    "docs/_reports/",
+    "docs/tmp/"
+  ],
+  "protected_paths": [
+    ".github/documentation-policy.json",
+    "scripts/check_documentation.py",
+    "scripts/test_documentation_policy.py",
+    ".gitignore",
+    ".npmignore",
+    ".dockerignore",
+    "MANIFEST.in",
+    "scripts/documentation-policy.json",
+    "scripts/check-docs.mjs",
+    "scripts/install-hooks.mjs",
+    "tools/stage-workspace.py",
+    "scripts/package.mjs"
+  ],
+  "public_markdown": {
+    "LLM-Architecture/README.md": "413dd17cb4484102ae948c252df9269060fa17ef3174e04e7422e087490f7a0c",
+    "LLM-Data/README.md": "3c38ea04e20d40f8b6e2052d7784d36efe16464302b74974ad1b3c89122ee940",
+    "LLM-From-Scratch/DATASET_CARD.md": "08231006e98b89574161f2c5f9b06aa324c4843771c63a5e3202400ab2052980",
+    "LLM-From-Scratch/MILESTONE_3C_REPORT.md": "d762ffedec461e1159a554650e3a031d6cafdb74a27b50e90476fd2fe879301b",
+    "LLM-From-Scratch/MODEL_CARD.md": "e06bb0753fc058a87d17908a8099ed411206c18bdefd2a05c9362f5db73f3ef7",
+    "LLM-From-Scratch/README.md": "2c678fbd5287c1242d40ed65550bf033338967883003bcdd9529800c04d8247f",
+    "LLM-From-Scratch/cpp/README.md": "871ac4cd4b6d87de00dbbee7a62fbdb8ff98e7c6eac823148cab5af3fe343666",
+    "LLM-From-Scratch/data/README.md": "b9642fa23b0358a72fada1f29cab746c61206f566f7db56c7cab7697e6831951",
+    "LLM-From-Scratch/docs/CUDA_BACKEND.md": "9fe8e10421d50772b01fd73475306338f3de720d197f9706f27123e3f5a4a174",
+    "LLM-From-Scratch/docs/EVALUATION.md": "1611e65318c3fb57b8769ec8cc6f0b09ec5032a93b86cb4a1c0f1bac06b0c9cd",
+    "LLM-From-Scratch/docs/HISTORICAL_IMPLEMENTATIONS.md": "aa3f5f227871e5c7262233835d1d6b982d05472c3b3e3678b95e37d87e6ebcb1",
+    "LLM-From-Scratch/docs/MIGRATION.md": "8c19c9e1ec6bd4e55089c489987c3f8771995994599f35ae6f58958df4248797",
+    "LLM-From-Scratch/docs/NEXT_TRAINING_OPTIONS.md": "eca66edabac463c3f510425660965f0320715417ddeeca86ec87e67ab2ce4035",
+    "LLM-From-Scratch/docs/PRETRAINING.md": "2952cc4098188708c3b6e944fe965a5240e5a0cf35ff528c6a42e940257f2b6d",
+    "LLM-From-Scratch/docs/PR_REVIEW.md": "3abf251d14dbc548f863568b4b76ff07ada37cf4ea31ee879212d740ed498f05",
+    "LLM-From-Scratch/docs/REPOSITORY_CLEANUP.md": "ed5801d6091c72f5fb659a739280dce8903ca7a96a8dfde81e405358f1dfadaf",
+    "LLM-From-Scratch/docs/WINDOWS_CUDA_SETUP.md": "673ce01c787a8d507a8a86fd82e90e422ba5a8ed4a7cf9e633b4b7a9d1fa08ed",
+    "LLM-From-Scratch/docs/workspace/components/LLM-Architecture.md": "c86eb515c0479597097fbc480e223874290b65764ba1023b737e518fd7128b48",
+    "LLM-From-Scratch/docs/workspace/components/LLM-Data.md": "b29d051fc87142573ff83aaafbeff3e6388731680bf33d2d78a19b88035f2a17",
+    "LLM-From-Scratch/docs/workspace/components/LLM-Inference.md": "48621694e479b90d3e3e1fd6f17daf2a33d47439cec326fdf517f9e8dbe56cd9",
+    "LLM-From-Scratch/docs/workspace/components/LLM-Memory.md": "61ae27c61820611cbc9fd0114d34fb82b1d557ae4baab7577b55b4d078b3f8ec",
+    "LLM-From-Scratch/docs/workspace/components/LLM-Specialist.md": "2e9684f3c7c9dddc6433ce38ac9f61ea87392f85758d6eb14e2e341d8a40528c",
+    "LLM-From-Scratch/docs/workspace/components/LLM-Tokenizer.md": "6b9390a43cee59478d555077f30d11fc7662ea2d6184ef5ffe25f24bb77b6119",
+    "LLM-From-Scratch/docs/workspace/components/LLM-Training.md": "2dfd6ee763878a96ebe43c271eca4276e0621c629149293f5e887fe9fb4abdd6",
+    "LLM-From-Scratch/runs/README.md": "7f05cec15ce1cdbf73400dacf18a121b55a48c9f47d7be1be351feddee1a49c5",
+    "LLM-Inference/README.md": "aa3a4ad229bd08cad5f172b8e85a3a0e526641ab018cd8fa559175163451e6e8",
+    "LLM-Memory/README.md": "a175da5a91206837339aa13532b9dff6b3c77c46505b90b7d236e7b1fd69c0a4",
+    "LLM-Specialist/README.md": "d9ec45a8f9ecea9929a37cf4785fde6fe8500015ac489b5e607af73874116fa2",
+    "LLM-Tokenizer/README.md": "ab8535b5569df4499b5c4205dd1174ab1e50bbf9d31474a764ff8f77cf6c3c43",
+    "LLM-Training/README.md": "e86b285a75964b2c4929c02c235a3f2fe866557e05ba9e63cf74eb834f9a7505",
+    "README.md": "7a35e6dc60c65907c3d6c47dd91f9b5f77910c6bf27a8ea2e2c6df6148a62bfa",
+    "tools/README.md": "4c82dc790e5a685a17b5a84dfe8f774fd6cf3df08996a665f3060622f897e7c7",
+    "workspace-infrastructure/README.md": "4c2c10063268235707b6a24e0cb3ab4094595843ddc709706090ae56a3176785"
+  },
+  "repository": "golba98/Codexa-LLM-v2-NumPy",
+  "version": 1
+}
